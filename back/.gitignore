@@ -1,0 +1,25 @@
+# Build and IDE specific files
+.gradle
+/build/
+/back/caches/
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+/.vscode/
+/bin/
+/out/
+/.idea
+*.iws
+*.iml
+*.ipr
+
+# Exclusions
+!gradle/wrapper/gradle-wrapper.jar
+!**/src/main/**/build/
+!**/src/test/**/build/
+!**/src/main/**/bin/
+!**/src/test/**/bin/
+!**/src/main/**/out/
+!**/src/test/**/out/

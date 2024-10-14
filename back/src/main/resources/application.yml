@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: parcial2
+  mustache:
+    suffix: .html
+  datasource:
+    url: jdbc:postgresql://localhost:5500/pparcial
+    username: adminrodolfo
+    password: 1234
+  jpa:
+    show-sql: true
+    hibernate:
+      ddl-auto: update
+    properties:
+      hibernate:
+        globally_quoted_identifiers: true
+  sql:
+    init:
+      mode: always
+
+security:
+  jwt:
+    secret: "86f87ecb-8e9a-1121-922a-e12337a95dc3"
+    exptime: 1296000000
